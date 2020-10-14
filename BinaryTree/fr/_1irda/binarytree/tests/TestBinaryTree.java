@@ -98,7 +98,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Integer> bTree = new BinaryTree<Integer>();
 
-        System.out.println("Test : addNodeUniqueIntValues");
+        System.out.print("testAddNodeUniqueIntValues => ");
         
         for (int i = 0; i < UNIQUE_INT_TO_ADD.length; i++) {
             isAdded = bTree.addNode(UNIQUE_INT_TO_ADD[i]);
@@ -119,7 +119,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Integer> bTree = new BinaryTree<Integer>();
 
-        System.out.println("Test : addNodeSameIntValues");
+        System.out.print("testAddNodeSameIntValues => ");
 
         for (int i = 0; i < SAME_INT_TO_ADD.length; i++) {
             isAdded = bTree.addNode(SAME_INT_TO_ADD[i]);
@@ -140,7 +140,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Double> bTree = new BinaryTree<Double>();
 
-        System.out.println("Test : addNodeUniqueDoubleValues");
+        System.out.print("testAddNodeUniqueDoubleValues => ");
         
         for (int i = 0; i < UNIQUE_DOUBLE_TO_ADD.length; i++) {
             isAdded = bTree.addNode(UNIQUE_DOUBLE_TO_ADD[i]);
@@ -161,7 +161,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Double> bTree = new BinaryTree<Double>();
 
-        System.out.println("Test : addNodeSameDoubleValues");
+        System.out.print("testAddNodeSameDoubleValues => ");
         
         for (int i = 0; i < SAME_DOUBLE_TO_ADD.length; i++) {
             isAdded = bTree.addNode(SAME_DOUBLE_TO_ADD[i]);
@@ -182,7 +182,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<String> bTree = new BinaryTree<String>();
 
-        System.out.println("Test : addNodeUniqueStrValues");
+        System.out.print("testAddNodeUniqueStrValues => ");
         
         for (int i = 0; i < UNIQUE_STR_TO_ADD.length; i++) {
             isAdded = bTree.addNode(UNIQUE_STR_TO_ADD[i]);
@@ -203,7 +203,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<String> bTree = new BinaryTree<String>();
 
-        System.out.println("Test : addNodeSameStrValues");
+        System.out.print("testAddNodeSameStrValues => ");
         
         for (int i = 0; i < SAME_STR_TO_ADD.length; i++) {
             isAdded = bTree.addNode(SAME_STR_TO_ADD[i]);
@@ -223,7 +223,7 @@ public class TestBinaryTree {
         BinaryTree<Integer> bTree = new BinaryTree<Integer>();
         String expectedResult, result;
 
-        System.out.println("Test : testPrefix");
+        System.out.print("testPrefix => ");
 
         // unique int 
 
@@ -266,7 +266,7 @@ public class TestBinaryTree {
         BinaryTree<Double> bTree = new BinaryTree<Double>();
         String expectedResult, result;
 
-        System.out.println("Test : testInfix");
+        System.out.print("testInfix => ");
 
         // unique double 
 
@@ -309,7 +309,7 @@ public class TestBinaryTree {
         BinaryTree<String> bTree = new BinaryTree<String>();
         String expectedResult, result;
 
-        System.out.println("Test : testPostfix");
+        System.out.print("testPostfix => ");
 
         // unique string 
 
@@ -352,7 +352,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Integer> bTree = new BinaryTree<Integer>();
 
-        System.out.println("Test : isPresent");
+        System.out.print("testIsPresent => ");
 
         for (int i = 0; i < TO_ADD.length; i++) {
             for (int j = 0; j < TO_ADD[i].length; j++) {
@@ -374,7 +374,7 @@ public class TestBinaryTree {
         int nbSuccess = 0;
         BinaryTree<Integer> bTree = new BinaryTree<Integer>();
 
-        System.out.println("Test : getHeight");
+        System.out.print("testGetHeight => ");
 
         for (int i = 0; i < TO_ADD.length; i++) {
             for (int j = 0; j < TO_ADD[i].length; j++) {
@@ -404,7 +404,7 @@ public class TestBinaryTree {
         }; 
         String result;
 
-        System.out.println("Test : removeNode");
+        System.out.print("testRemoveNode => ");
 
         for (int i = 0; i < TO_ADD.length; i++) {
             for (int j = 0; j < TO_ADD[i].length; j++) {
